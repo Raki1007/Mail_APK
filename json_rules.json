@@ -1,0 +1,64 @@
+{
+  "1":{
+  "predicate" : ["ALL"],
+    "content": [
+      { "name": "from",
+        "value": [
+          "contains",
+          "youthmankmail.com"
+        ]
+      },
+      { "name": "to",
+        "value": [
+          "contains",
+          "rsreshma@gmail.com"
+        ]
+      },
+      { "name": "subject",
+        "value": [
+          "contains",
+          "DAY 23: Rooting for You!"
+        ]
+      },
+      {
+        "name": "mailreceived",
+        "value": [
+          "is less than 5 days old"
+        ]
+      }
+    ]
+  },
+  "2":{
+    "predicate" : ["ANY"],
+    "content": [
+      {
+        "name": "from",
+        "value": [
+          "contains",
+          "youthmankmail.com"
+        ]
+      },
+      {
+        "name": "to",
+        "value": [
+          "contains",
+          "rsreshma@gmail.com" ]
+      },
+      {
+        "name": "subject",
+        "value": [
+          "contains",
+          "DAY 23: Rooting for You!"
+        ]
+      },
+      {
+        "name": "mailreceived",
+        "value": [
+          "is less than 5 days old"
+        ]
+      }
+    ]
+
+ }
+
+}
